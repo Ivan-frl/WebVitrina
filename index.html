@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+        <link rel="stylesheet" type="text/css" href="material/css/style.css"/>
+        <link rel="stylesheet" type="text/css" href="material/vendor/owl-slider.css"/>
+        <link rel="stylesheet" type="text/css" href="material/vendor/settings.css"/>
+        <link rel="shortcut icon" href="material/images/favicon.png" />
+        <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,500,700,300' rel='stylesheet' type='text/css'>
+        <script type="text/javascript" src="material/js/jquery-1.11.1.min.js"></script>
+        <title>About</title>
+    </head>
+    <body>
+    <div class="page-loading">
+         <div class="loading-wrapper">
+            <div class="loading-icon">
+               <img src="material/images/logo.png" alt="images">
+            </div>
+            <div class="progress">
+               <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+         </div>
+      </div>
+    <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-hidden="true" style="display: none;">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content popup-search">
+                <button type="button" class="close" data-dismiss="modal"><i class="fa fa-times" aria-hidden="true"></i></button>
+                <div class="modal-body">
+                    <div class="input-group">
+                        <input type="text" class="form-control control-search" placeholder="Search and hit enter...">
+                        <button class="button_search" type="button">ПОИСК</button>
+                    </div><!-- /input-group -->
+
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div>
+    <!-- End pushmenu -->
+    <!-- End pushmenu -->
+    <div class="wrappage">
+        <header id="header" class="header-v1">
+            <div class="header-top">
+                    <div class="container">
+                    <div class="box">
+                        <p class="icon-menu-mobile"><i class="fa fa-bars" ></i></p>
+                        <div class="logo"><a href="#" title="Uno">
+                        <img src="material/images/logo.png" alt="images">
+                        </a></div>
+                        <div class="logo-mobile"><a href="#" title="Xanadu"><img src="material/images/logo.png" alt="Xanadu-Logo"></a></div>
+
+                        <div class="box-right">
+                            <div class="cart hover-menu">
+                                 <p class="icon-cart" title="Add to cart">
+                                        <i class="icon"></i>
+                                        <span class="cart-count">2</span>
+                                    </p>
+                                    <div class="cart-list list-menu">
+                                        <ul class="list">
+                                            <li>
+                                                <a href="#" title="" class="cart-product-image"><img src="material/images/products/1.jpg" alt="Product"></a>
+                                                <div class="text">
+                                                    <p class="product-name">Union Bed</p>
+                                                    <p class="product-price"><span class="price-old">$700.00</span><span class="price">$350.00</span></p>
+                                                    <p class="qty">QTY:01</p>
+                                                </div>
+                                                <a class="close" href="#" title="close"><i class="fa fa-times-circle"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#" title="" class="cart-product-image"><img src="material/images/products/1.jpg" alt="Product"></a>
+                                                <div class="text">
+                                                    <p class="product-name">Union Bed</p>
+                                                    <p class="product-price"><span class="price-old">$700.00</span><span class="price">$350.00</span></p>
+                                                    <p class="qty">QTY:01</p>
+                                                </div>
+                                                <a class="close" href="#" title="close"><i class="fa fa-times-circle"></i></a>
+                                            </li>
+                                        </ul>
+                                        <p class="total"><span class="left">Total:</span> <span class="right">$1121.98</span></p>
+                                        <div class="bottom">
+                                            <a class="link-v1" href="#" title="viewcart">View Cart</a>
+                                            <a class="link-v1 rt" href="#" title="checkout">Check out</a>
+                                        </div>
+                                    </div>
+                            </div>
+                            <div class="settings hover-menu">
+                                <a href="#" title="settings">
+                                    <span class="icons-setting"></span>
+                                </a>
+                                <ul class="submenu list-menu align-left">
+                                    <li>
+                                        <div class="container-fluid">
+                                            <h3>Select Language</h3>
+                                            <ul class="language">
+                                                <li class="active"><a href="#" title="language"><img src="material/images/lg-1.jpg" alt="language"></a></li>
+                                                <li><a href="#" title="language"><img src="material/images/lg-2.jpg" alt="language"></a></li>
+                                                <li><a href="#" title="language"><img src="material/images/lg-3.jpg" alt="language"></a></li>
+                                                <li><a href="#" title="language"><img src="material/images/lg-4.jpg" alt="language"></a></li>
+                                            </ul>
+                                            <h3>Select Currency</h3>
+                                            <ul class="currency">
+                                                <li class="active"><a href="#" title="$"><span class="fa fa-dollar"></span></a></li>
+                                                <li><a href="#" title="$"><span class="fa fa-euro"></span></a></li>
+                                                <li><a href="#" title="$"><span class="fa fa-cny"></span></a></li>
+                                            </ul>
+                                            <ul class="infor">
+                                                <li><span class="fa fa-unlock-alt"></span><a id="openLogin" href="#" title="login">Логин / Регистрация</a></li>
+                                                <li><span class="fa fa-user"></span><a href="#" title="My Account">My Account</a></li>
+                                                <li><span class="fa fa-heart"></span><a href="#" title="My Wishlist">My Wishlist</a></li>
+                                                <li><span class="fa fa-check-circle"></span><a href="#" title="Checkout">Checkout</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="search dropdown" data-toggle="modal" data-target=".bs-example-modal-lg">
+                                <i class="icon"></i>
+                            </div>
+                        </div>
+                        <nav class="mega-menu">
+                        <!--Бренд и переключатель группируются для лучшего
+                             отображения на мобильных устройствах -->
+                          <ul class="nav navbar-nav" id="navbar">
+                            <li class="level1 active dropdown"><a href="#" title="Страна">Страна</a>
+                                <ul class="menu-level-1 dropdown-menu">
+                                   <li class="level2"><a href="pmr.html" title="Приднестровье">Приднестровье</a></li>
+                                    <li class="level2"><a href="page_404.html" title="Модова">Модова</a></li>
+                                    <li class="level2"><a href="page_404.html" title="Украина">Украина</a></li>
+                                </ul>
+                            </li>
+                            <li class="level1 dropdown">
+                                <a href="catalog_fullwidth.html" title="men">Товары</a>
+                                <div class="sub-menu sub-menu-v2 dropdown-menu">
+                                  <ul class="menu-level-1">
+                                    <li class="level2"><a href="#">Обувь</a>
+                                        <ul class="menu-level-2">
+                                            <li class="level3"><a href="#" title="Seatings">Мужская</a></li>
+                                            <li class="level3"><a href="#" title="Tables">Женская</a></li> <li class="level3"><a href="#" title="Accessories">Детская</a></li>
+                                            <li class="level3"><a href="#" title="Series">Аксесуары</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="level2"><a href="#">Продукты питания</a>
+                                        <ul class="menu-level-2">
+                                            <li class="level3"><a href="#" title="Lighting">Сладости</a></li>
+                                            <li class="level3"><a href="#" title="Storage">Алкоголь</a></li>
+                                            <li class="level3"><a href="#" title="Accessories">Молочные продукты</a></li>
+                                            <li class="level3"><a href="#" title="Beds">Мясо</a></li>
+                                        </ul>
+                                    </li>
+                                     <li class="level2"><a href="#">Строительные</a>
+                                        <ul class="menu-level-2">
+                                            <li class="level3"><a href="#" title="Cleaning Tools">Инструмент</a></li>
+                                            <li class="level3"><a href="#" title="Waste Bins">Материалы</a></li>
+                                            <li class="level3"><a href="#" title="Pots & Pans">Техника</a></li>
+                                            <li class="level3"><a href="#" title="Beds">Хозяйственые товары</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="level2"><a href="#">Одежда</a>
+                                        <ul class="menu-level-2">
+                                            <li class="level3"><a href="#" title="Seatings">Мужская</a></li>
+                                            <li class="level3"><a href="#" title="Tables">Женская</a></li>
+                                            <li class="level3"><a href="#" title="Accessories">Детская</a></li>
+                                            <li class="level3"><a href="#" title="Series">Для животных</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="level2"><a href="#">Развлечения</a>
+                                        <ul class="menu-level-2">
+                                            <li class="level3"><a href="#" title="Lighting">Книги</a></li>
+                                            <li class="level3"><a href="#" title="Storage">Игрушки</a></li>
+                                            <li class="level3"><a href="#" title="Accessories">Спорт товары</a></li>
+                                            <li class="level3"><a href="#" title="Beds">Музыкальные товары</a></li>
+                                        </ul>
+                                    </li>
+                                     <li class="level2"><a href="#">Автотовары</a>
+                                        <ul class="menu-level-2">
+                                            <li class="level3"><a href="#" title="Cleaning Tools">Инструменты</a></li>
+                                            <li class="level3"><a href="#" title="Waste Bins">Автохимия</a></li>
+                                            <li class="level3"><a href="#" title="Pots & Pans">Аксесуары</a></li>
+                                        </ul>
+                                    </li>
+                                  </ul>
+                                  <div class="right-submenu">
+                                        <a href="#" title="images"><img class="img-responsive" src="material/images/right-submenu.jpg" alt="Sub-Menu" /></a>
+                                  </div>
+                                  <!-- Конец правого под меню -->
+                              </div>
+                              <!-- КУонец раскрывающегося меню -->
+                            </li>
+                            <li class="level1 dropdown"><a href="#" title="collections">Услуги</a>
+                                <ul class="menu-level-1 dropdown-menu">
+                                    <li class="level2"><a href="lookbook_v2.html" title="Lookbook Style 1" target="_blank">Lookbook Style 1</a>
+                                        <ul class="menu-level-2">
+                                            <li class="level3"><a href="lookbook_v2.html" title="Lookbook Style 1" target="_blank">Lookbook Style 1</a></li>
+                                            <li class="level3"><a href="lookbook_v3.html" title="Lookbook Style 2" target="_blank">Lookbook Style 2</a></li>
+                                            <li class="level3"><a href="lookbook_v4.html" title="Lookbook Style 3" target="_blank">Lookbook Style 3</a></li>
+                                            <li class="level3"><a href="lookbook_v5.html" title="Lookbook Style 4" target="_blank">Lookbook Style 4</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="level2"><a href="lookbook_v3.html" title="Lookbook Style 2" target="_blank">Lookbook Style 2</a></li>
+                                    <li class="level2"><a href="lookbook_v4.html" title="Lookbook Style 3" target="_blank">Lookbook Style 3</a></li>
+                                    <li class="level2"><a href="lookbook_v5.html" title="Lookbook Style 4" target="_blank">Lookbook Style 4</a></li>
+
+                                </ul>
+                            </li>
+                            <li class="level1 dropdown"><a href="#" title="Page">Страницы</a>
+                                <div class="sub-menu dropdown-menu">
+                                    <div class="top-sub-menu">
+                                        <img src="material/images/top-submenu.jpg" alt="images">
+                                    </div>
+                                  <ul class="menu-level-1">
+                                    <li class="level2"><a href="#">Living Room</a>
+                                        <ul class="menu-level-2">
+                                            <li class="level3"><a href="#" title="Seatings">Seatings</a></li>
+                                            <li class="level3"><a href="#" title="Tables">Tables</a></li>
+                                            <li class="level3"><a href="#" title="Accessories">Accessories</a></li>
+                                            <li class="level3"><a href="#" title="Series">Series</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="level2"><a href="#">BATH Room</a>
+                                        <ul class="menu-level-2">
+                                            <li class="level3"><a href="#" title="Lighting">Lighting</a></li>
+                                            <li class="level3"><a href="#" title="Storage">Storage</a></li>
+                                            <li class="level3"><a href="#" title="Accessories">Accessories</a></li>
+                                            <li class="level3"><a href="#" title="Beds">Beds</a></li>
+                                        </ul>
+                                    </li>
+                                     <li class="level2"><a href="#">KITCHEN Room</a>
+                                        <ul class="menu-level-2">
+                                            <li class="level3"><a href="#" title="Cleaning Tools">Cleaning Tools</a></li>
+                                            <li class="level3"><a href="#" title="Waste Bins">Waste Bins</a></li>
+                                            <li class="level3"><a href="#" title="Pots & Pans">Pots & Pans</a></li>
+                                        </ul>
+                                    </li>
+                                     <li class="level2"><a href="#">LOOKBOOK</a>
+                                        <ul class="menu-level-2">
+                                            <li class="level3"><a href="#" title="Decorative Pillows">Decorative Pillows</a></li>
+                                            <li class="level3"><a href="#" title="Picture Frames">Picture Frames</a></li>
+                                            <li class="level3"><a href="#" title="Clocks">Clocks</a></li>
+                                            <li class="level3"><a href="#" title="Baskets & Bins">Baskets & Bins</a></li>
+                                        </ul>
+                                    </li>
+                                  </ul>
+                              </div>
+                              <!-- End Dropdow Menu -->
+                            </li>
+                            <li class="level1 dropdown"><a href="single-post.html" title="ShortCode" target="_blank">ShortCode</a>
+                                <ul class="menu-level-1 dropdown-menu">
+                                    <li class="level2"><a href="accordion.html" title="accordion" target="_blank">accordion</a></li>
+                                    <li class="level2"><a href="box_content.html" title="box_content" target="_blank">box content</a></li>
+                                    <li class="level2"><a href="button.html" title="button" target="_blank">button</a></li>
+                                    <li class="level2"><a href="countdown.html" title="countdown" target="_blank">countdown</a></li>
+                                    <li class="level2"><a href="gmap.html" title="gmap" target="_blank">gmap</a></li>
+                                    <li class="level2"><a href="iconbox.html" title="iconbox" target="_blank">iconbox</a></li>
+                                    <li class="level2"><a href="social.html" title="social" target="_blank">social</a></li>
+                                    <li class="level2"><a href="tabs.html" title="tabs" target="_blank">tabs</a></li>
+                                    <li class="level2"><a href="post_shortcode.html" title="post shortcode" target="_blank">post shortcode</a></li>
+                                </ul>
+                            </li>
+                          </ul>
+                        </nav>
+                    </div>
+                    </div>
+                    <!-- End container -->
+                </div>
+                <!-- End header-top -->
+        </header><!-- /header -->
+        <div class="container">
+            <div class="banner-header banner-lbook3 space-30">
+                <img src="material/images/banner/1.jpg" alt="Banner-header">
+                <div class="text">
+                    <h3>Энциклопедия товаров</h3>
+                    <p><a href="#" title="Home">WEB ВИТРИНА</a><i class="fa fa-caret-right"></i>ПМР</p>
+                </div>
+            </div>
+        </div>
+        <div class="page-about">
+            <div class="head-about">
+                <div class="container container-ver2">
+                    <div class="box space-50">
+                        <div class="col-md-6 text center">
+                            <h3>Мы WEB|Витрина ПМР</h3>
+                            <p><i> Наша оснавная задача упростить поиск товара в нашей республике и помочь при его покупке и продаже </i></p>
+                            <p>На данной платформе вы найдете информацию о товарах с ценами от более чем  100 магазинов. Посетители сайта имеют доступ к эксклюзивным скидкам, могут воспользоваться  промокодами. Наша цель - сделать онлайн-шопинг максимально выгодным и легким!</p>
+                            <a href="#" title="IvanSt">От IvanSt</a>
+                        </div>
+                        <div class="col-md-6">
+                            <img class="img-responsive" src="material/images/about-user1.jpg" alt="images">
+                        </div>
+                    </div>
+                    <!-- End box-shadow -->
+                </div>
+            </div>
+            <!-- End head-about -->
+            <div class="about-choose center space-padding-tb-40 space-30">
+                <div class="container container-ver2">
+                    <div class="border">
+                        <h3>Почему именно мы</h3>
+                        <p> Мы настойчиво убеждены, что наш долгосрочный успех и процветание зависят от разработки четкой стратегии, ориентированной на потребности клиентов.
+                            Эти принципы пронизывают нашу корпоративную культуру и руководят нашими методами подбора персонала.
+                            Нашими ключевыми ценностями являются: </p>
+                    </div>
+                    <!-- End border -->
+                    <div class="row align-left">
+                        <div class="col-md-4">
+                            <div class="feature-box space-30">
+                                <div class="fbox-icon">
+                                    <a href="#"><span class="pe-7s-light"></span></a>
+                                </div>
+                                <div class="fbox-body">
+                                    <h4 class="fbox-title">Этика и честность</h4>
+                                    <p>Мы убеждены, что сосредоточенное внимание компании на потребностях клиента является ключом к долгосрочному успеху как для нас, так и для наших клиентов. </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End col-md-4 -->
+                        <div class="col-md-4">
+                            <div class="feature-box space-30">
+                                <div class="fbox-icon">
+                                    <a href="#"><span class="pe-7s-gift"></span></a>
+                                </div>
+                                <div class="fbox-body">
+                                    <h4 class="fbox-title">Широкий ассртимент</h4>
+                                    <p>Постоянное расширение ассортимента товаров и услуг  - это позволяет делать предложения с учетом современных требований и потребностей заказчика.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End col-md-4 -->
+                        <div class="col-md-4">
+                            <div class="feature-box space-30">
+                                <div class="fbox-icon">
+                                    <a href="#"><span class="pe-7s-tools"></span></a>
+                                </div>
+                                <div class="fbox-body">
+                                    <h4 class="fbox-title">Высокое качество продукции</h4>
+                                    <p>Все наши товары обязательно проходят сертификацию и соответствуют всем установленным требованиям и стандартам. Все наши поставщики имеют безупречную репутацию.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End col-md-4 -->
+                        <div class="col-md-4">
+                            <div class="feature-box space-30">
+                                <div class="fbox-icon">
+                                    <a href="#"><span class="pe-7s-refresh-2"></span></a>
+                                </div>
+                                <div class="fbox-body">
+                                    <h4 class="fbox-title">Круглые сутки</h4>
+                                    <p>Наш онлайн магазин доступен в любое время суток, без перерывов на обед и выходные</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End col-md-4 -->
+                        <div class="col-md-4">
+                            <div class="feature-box space-30">
+                                <div class="fbox-icon">
+                                    <a href="#"><span class="pe-7s-graph2"></span></a>
+                                </div>
+                                <div class="fbox-body">
+                                    <h4 class="fbox-title">Экономия сил и времени</h4>
+                                    <p>Нет необходимости тратить усилия и время на поиск товара в разных магазинах, общение с продавцами</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End col-md-4 -->
+                        <div class="col-md-4">
+                            <div class="feature-box space-30">
+                                <div class="fbox-icon">
+                                    <a href="#"><span class="pe-7s-gift"></span></a>
+                                </div>
+                                <div class="fbox-body">
+                                    <h4 class="fbox-title">Индивидуальная стратегия</h4>
+                                    <p>С каждым клиентом персонализированный метод работы, для  полной удовлетворенности , стремимся воплотить в жизнь ваши пожелания наилучшим образом.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End col-md-4 -->
+                    </div>
+                    <!-- End row -->
+                </div>
+                <!-- End container -->
+            </div>
+            <!-- End about chose -->
+            <div class="our-team">
+                <div class="container container-ver2 center">
+                    <div class="head">
+                        <h3>Наши партнеры</h3>
+                        <p>с которыми вы знакомы</p>
+                    </div>
+                    <!-- End head -->
+                    <div class="row">
+                        <div class="col-md-4 col-sm-4 space-30">
+                            <div class="interactive-banner interactive-banner-v1 center">
+                                <div class="interactive-banner-body">
+                                    <img class="img-responsive" src="material/images/user1.jpg" alt="images">
+                                </div>
+                            </div>
+                            <div class="banner-title">
+                                <h3>SwetHome</h3>
+                                <p>Товары для дома</p>
+                                <div class="interactive-banner-profile text-center">
+                                    <div class="action light-style">
+                                        <a href="#"><i class="icons icons-bodered radius-x fa fa fa-facebook"></i></a>
+                                        <a href="#"><i class="icons icons-bodered radius-x fa fa-twitter"></i></a>
+                                        <a href="#"><i class="icons icons-bodered radius-x fa fa-pinterest"></i></a>
+                                        <a href="#"><i class="icons icons-bodered radius-x fa fa-dribbble"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End col-md-4 -->
+                        <div class="col-md-4 col-sm-4 space-30">
+                            <div class="interactive-banner interactive-banner-v1 center">
+                                <div class="interactive-banner-body">
+                                    <img class="img-responsive" src="material/images/user2.jpg" alt="images">
+
+                                </div>
+                            </div>
+                            <div class="banner-title">
+                                <h3>Bell Elit</h3>
+                                <p>Косметика и Парфюмерия</p>
+                                <div class="interactive-banner-profile text-center">
+                                    <div class="action light-style">
+                                        <a href="#"><i class="icons icons-bodered radius-x fa fa fa-facebook"></i></a>
+                                        <a href="#"><i class="icons icons-bodered radius-x fa fa-twitter"></i></a>
+                                        <a href="#"><i class="icons icons-bodered radius-x fa fa-pinterest"></i></a>
+                                        <a href="#"><i class="icons icons-bodered radius-x fa fa-dribbble"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End col-md-4 -->
+                        <div class="col-md-4 col-sm-4 space-30">
+                            <div class="interactive-banner interactive-banner-v1 center">
+                                <div class="interactive-banner-body">
+                                    <img class="img-responsive" src="material/images/user3.jpg" alt="images">
+                                </div>
+                            </div>
+                            <div class="banner-title">
+                                <h3>Lover</h3>
+                                <p>Подарки любимым</p>
+                                <div class="interactive-banner-profile text-center">
+                                    <div class="action light-style">
+                                        <a href="#"><i class="icons icons-bodered radius-x fa fa fa-facebook"></i></a>
+                                        <a href="#"><i class="icons icons-bodered radius-x fa fa-twitter"></i></a>
+                                        <a href="#"><i class="icons icons-bodered radius-x fa fa-pinterest"></i></a>
+                                        <a href="#"><i class="icons icons-bodered radius-x fa fa-dribbble"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+
+
+                        <!-- End col-md-4 -->
+                    </div>
+                    <!-- End row -->
+                </div>
+                <!-- End container-ver2 -->
+            </div>
+            <!-- End our team -->
+        </div>
+        <!-- End page-about -->
+        <div class="container">
+        <div class="newsletter-bottom center">
+            <div class="items">
+                <img class="img-responsive" src="material/images/newsletter-bottom.jpg" alt="Newsllter">
+                <div class="text">
+                    <h3>Подписаться на специальные акции</h3>
+                    <p>Получайте эксклюзивные предложения, которые вы больше нигде не найдете, прямо в свой почтовый ящик!</p>
+                    <form action="#" method="get" accept-charset="utf-8">
+                        <input type="text" onblur="if (this.value == '') {this.value = 'Enter your email...';}" onfocus="if(this.value != '') {this.value = '';}" value="Введите вашу почту..." class="input-text required-entry validate-email" title="Sign up for our newsletter" id="newsletter" name="email">
+                        <button class="button button1 hover-white" title="Subscribe" type="submit">Отправить<i class="link-icon-white"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!-- End newsletter -->
+        <footer id="footer" class="footer-v1">
+          <div class="container">
+                <div class="footer-top">
+                    <div class="logo-footer">
+                        <a href="#" title="Logo">
+                            <img src="material/images/logo.png" alt="Logo">
+                        </a>
+                        <p>&copy; IvanSt2023 | Site by WebВитринаПМР</p>
+                    </div>
+                    <div class="menu-footer">
+                        <ul>
+                            <li><a href="#" title="About Us">О нас</a></li>
+                            <li><a href="#" title="Advertise">Акции</a></li>
+                            <li><a href="#" title="Press">Новости</a></li>
+                            <li><a href="#" title="Contact Us">Наши контакты</a></li>
+                            <li><a href="#" title="Store">Магазин</a></li>
+                            <li><a href="#" title="Careers">Вакансии</a></li>
+                        </ul>
+                    </div>
+                    <!-- End menu-footer -->
+                    <div class="social">
+                        <a class="active" title="twitter" href="#"><i class="fa fa-twitter"></i></a>
+                        <a title="facebook" href="#"><i class="fa fa-facebook"></i></a>
+                        <a title="youtube" href="#"><i class="fa fa-youtube-play"></i></a>
+                        <a title="google plus" href="#"><i class="fa fa-google-plus"></i></a>
+                    </div>
+                    <!-- End social -->
+                </div>
+                <!-- End footer-top -->
+          </div>
+          <!-- End container -->
+        </footer>
+        </div>
+    <!-- End wrappage -->
+    <script type="text/javascript" src="material/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="material/js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="material/js/jquery.themepunch.revolution.min.js"></script>
+    <script type="text/javascript" src="material/js/jquery.themepunch.plugins.min.js"></script>
+    <script type="text/javascript" src="material/js/engo-plugins.js"></script>
+    <script src="http://maps.googleapis.com/maps/api/js"></script>
+    <script type="text/javascript" src="material/js/store.js"></script>
+    </body>
+
+</html>
